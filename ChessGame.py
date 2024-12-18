@@ -67,5 +67,36 @@ class ChessGame:
             self.game_status = 'draw_by_moves'
         elif self.board.is_draw_by_repetition():
             self.game_status = 'draw_by_repetition'
+        else:
+            self.game_status = self.check_game_status()
         
         return True
+
+    def check_game_status(self):
+        """
+        Determine the game status and handle game conclusion.
+    
+        Returns:
+            str: Current game status ('ongoing', 'checkmate', 'draw', 'stalemate')
+        """
+        current_player = self.current_player
+
+        # Check for checkmate
+        if self.board.is_checkmate(current_player):
+            self.game_status = 'checkmate'
+            self.winner = 'white' if current_player == 'black' else 'black'
+            return self.game_status
+    
+        # Check for draw conditions
+        if self.board.is_draw(current_player):
+            self.game_status = 'draw'
+            self.winner = None
+            return self.game_status
+
+        # Check for stalemate
+        if self.board.is_stalemate(current_player):
+            self.game_status = 'stalemate'
+            self.winner = None
+            return self.game_status
+
+        return 'ongoing'
