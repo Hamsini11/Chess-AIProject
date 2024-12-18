@@ -3,7 +3,7 @@ This Python project simulates a chess game with AI opponents. It utilizes the Mi
 ##### Key Components:
 ---------------------
 ###### ♔ ChessPiece:
-♕ Represents a chess piece with its color and type.
+♕ Represents a chess piece with its color and type. \\n
 ♕ Provides methods for determining legal moves based on the piece type.
 
 ###### ♔ ChessBoard:
@@ -36,3 +36,11 @@ Execute the main.py script:
 This will start a chess game between the variations of Minimax AI and the MCTS AI. The game will be visualized on the console, and the moves will be printed, followed by summary stats.
 
 _The max_moves parameter in the_ ```ChessGame``` _class can be adjusted to limit the number of moves per game._
+
+Quick Tech Help!
+----------------
+##### To view all the results in console:
+-------------
+1. Go to File > Preferences > Settings
+2. Search for 'scrollback'
+3. It should be 1000 or higher
