@@ -1,4 +1,4 @@
-\import time
+import time
 from ChessGame import ChessGame
 from ChessBoard import ChessBoard
 from MinimaxAgent import MinimaxAgent
