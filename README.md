@@ -59,96 +59,96 @@ Final Summary Stats:
 Head-to-Head Results:
 ==================================================
 
-Standard Minimax (White) vs Beam Search (Black)
-Result@analyzeResults: checkmate
-Moves: 39
+Standard Minimax (White) vs Beam Search (Black)<br/>
+Result@analyzeResults: checkmate<br/>
+Moves: 39<br/>
 Average move times - White: 42.45s, Black: 0.15s
 
-Standard Minimax (White) vs Iterative Deepening (Black)
-Result@analyzeResults: draw_by_moves
-Moves: 50
+Standard Minimax (White) vs Iterative Deepening (Black)<br/>
+Result@analyzeResults: draw_by_moves<br/>
+Moves: 50<br/>
 Average move times - White: 23.76s, Black: 20.75s
 
-Standard Minimax (White) vs Standard MCTS (Black)
-Result@analyzeResults: draw_by_moves
-Moves: 50
+Standard Minimax (White) vs Standard MCTS (Black)<br/>
+Result@analyzeResults: draw_by_moves<br/>
+Moves: 50<br/>
 Average move times - White: 19.47s, Black: 1.12s
 
-Standard Minimax (White) vs Progressive MCTS (Black)
-Result@analyzeResults: checkmate
-Moves: 7
+Standard Minimax (White) vs Progressive MCTS (Black)<br/>
+Result@analyzeResults: checkmate<br/>
+Moves: 7<br/>
 Average move times - White: 7.17s, Black: 1.01s
 
-Standard Minimax (White) vs RAVE MCTS (Black)
-Result@analyzeResults: checkmate
-Moves: 39
+Standard Minimax (White) vs RAVE MCTS (Black)<br/>
+Result@analyzeResults: checkmate<br/>
+Moves: 39<br/>
 Average move times - White: 41.12s, Black: 1.22s
 
-Beam Search (White) vs Iterative Deepening (Black)
-Result@analyzeResults: draw_by_moves
-Moves: 50
+Beam Search (White) vs Iterative Deepening (Black)<br/>
+Result@analyzeResults: draw_by_moves<br/>
+Moves: 50<br/>
 Average move times - White: 0.17s, Black: 36.51s
 
-Beam Search (White) vs Standard MCTS (Black)
-Result@analyzeResults: draw_by_moves
-Moves: 50
+Beam Search (White) vs Standard MCTS (Black)<br/>
+Result@analyzeResults: draw_by_moves<br/>
+Moves: 50<br/>
 Average move times - White: 0.26s, Black: 1.20s
 
-Beam Search (White) vs Progressive MCTS (Black)
-Result@analyzeResults: draw_by_moves
-Moves: 50
+Beam Search (White) vs Progressive MCTS (Black)<br/>
+Result@analyzeResults: draw_by_moves<br/>
+Moves: 50<br/>
 Average move times - White: 0.27s, Black: 1.18s
 
-Beam Search (White) vs RAVE MCTS (Black)
-Result@analyzeResults: draw_by_moves
-Moves: 50
+Beam Search (White) vs RAVE MCTS (Black)<br/>
+Result@analyzeResults: draw_by_moves<br/>
+Moves: 50<br/>
 Average move times - White: 0.26s, Black: 1.26s
 
-Iterative Deepening (White) vs Standard MCTS (Black)
-Result@analyzeResults: checkmate
-Moves: 23
+Iterative Deepening (White) vs Standard MCTS (Black)<br/>
+Result@analyzeResults: checkmate<br/>
+Moves: 23<br/>
 Average move times - White: 44.42s, Black: 1.17s
 
-Iterative Deepening (White) vs Progressive MCTS (Black)
-Result@analyzeResults: checkmate
-Moves: 31
+Iterative Deepening (White) vs Progressive MCTS (Black)<br/>
+Result@analyzeResults: checkmate<br/>
+Moves: 31<br/>
 Average move times - White: 32.02s, Black: 1.07s
 
-Iterative Deepening (White) vs RAVE MCTS (Black)
-Result@analyzeResults: checkmate
-Moves: 35
-Average move times - White: 45.46s, Black: 1.02s
-Result@analyzeResults: checkmate
-Moves: 35
-Average move times - White: 45.46s, Black: 1.02s
-Average move times - White: 45.46s, Black: 1.02s
+Iterative Deepening (White) vs RAVE MCTS (Black)<br/>
+Result@analyzeResults: checkmate<br/>
+Moves: 35<br/>
+Average move times - White: 45.46s, Black: 1.02s<br/>
+Result@analyzeResults: checkmate<br/>
+Moves: 35<br/>
+Average move times - White: 45.46s, Black: 1.02s<br/>
+Average move times - White: 45.46s, Black: 1.02s<br/>
 
-Standard MCTS (White) vs Progressive MCTS (Black)
-Result@analyzeResults: draw_by_moves
+Standard MCTS (White) vs Progressive MCTS (Black)<br/>
+Result@analyzeResults: draw_by_moves<br/>
+Moves: 50<br/>
+Average move times - White: 1.06s, Black: 1.05s<br/>
+Standard MCTS (White) vs Progressive MCTS (Black)<br/>
+Result@analyzeResults: draw_by_moves<br/>
 Moves: 50
-Average move times - White: 1.06s, Black: 1.05s
-Standard MCTS (White) vs Progressive MCTS (Black)
-Result@analyzeResults: draw_by_moves
-Moves: 50
-Average move times - White: 1.06s, Black: 1.05s
-Result@analyzeResults: draw_by_moves
-Moves: 50
-Average move times - White: 1.06s, Black: 1.05s
-Moves: 50
-Average move times - White: 1.06s, Black: 1.05s
-Average move times - White: 1.06s, Black: 1.05s
-
-Standard MCTS (White) vs RAVE MCTS (Black)
+Average move times - White: 1.06s, Black: 1.05s<br/>
+Result@analyzeResults: draw_by_moves<br/>
+Moves: 50<br/>
+Average move times - White: 1.06s, Black: 1.05s<br/>
+Moves: 50<br/>
+Average move times - White: 1.06s, Black: 1.05s<br/>
+Average move times - White: 1.06s, Black: 1.05s<br/>
 
 Standard MCTS (White) vs RAVE MCTS (Black)
-Standard MCTS (White) vs RAVE MCTS (Black)
-Result@analyzeResults: draw_by_moves
-Result@analyzeResults: draw_by_moves
-Moves: 50
-Moves: 50
+
+Standard MCTS (White) vs RAVE MCTS (Black)<br/>
+Standard MCTS (White) vs RAVE MCTS (Black)<br/>
+Result@analyzeResults: draw_by_moves<br/>
+Result@analyzeResults: draw_by_moves<br/>
+Moves: 50<br/>
+Moves: 50<br/>
 Average move times - White: 1.07s, Black: 1.06s
 
-Progressive MCTS (White) vs RAVE MCTS (Black)
-Result@analyzeResults: draw_by_moves
-Moves: 50
+Progressive MCTS (White) vs RAVE MCTS (Black)<br/>
+Result@analyzeResults: draw_by_moves<br/>
+Moves: 50<br/>
 Average move times - White: 1.04s, Black: 1.04s
