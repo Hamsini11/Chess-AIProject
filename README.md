@@ -3,11 +3,11 @@ This Python project simulates a chess game with AI opponents. It utilizes the Mi
 ##### Key Components:
 ---------------------
 ###### ♔ ChessPiece:
-♕ Represents a chess piece with its color and type. \\n
+♕ Represents a chess piece with its color and type. <br/>
 ♕ Provides methods for determining legal moves based on the piece type.
 
 ###### ♔ ChessBoard:
-♕ Represents the chessboard and its current state.
+♕ Represents the chessboard and its current state.<br/>
 ♕ Implements the chessboard and manages all core gameplay mechanics, including move validation, tracking attacked squares, and checking game-ending conditions like checkmate.
 
 ###### ♔ MinimaxAgent:
@@ -20,7 +20,7 @@ This Python project simulates a chess game with AI opponents. It utilizes the Mi
 ♕ Selects moves randomly from the list of legal moves.
 
 ###### ♔ ChessGame:
-♕ Represents the overarching game and coordinates interactions between the player and the chessboard.
+♕ Represents the overarching game and coordinates interactions between the player and the chessboard.<br/>
 ♕ Visualizes the board and prints move information.
 
 Each class is designed to work together in a modular fashion, with ChessGame using ChessBoard which in turn uses ChessPieces, while both MinimaxAgent and MCTSAgent can be used as players within the ChessGame framework.
@@ -44,3 +44,16 @@ Quick Tech Help!
 1. Go to File > Preferences > Settings
 2. Search for 'scrollback'
 3. It should be 1000 or higher
+
+All CHECKMATES in the game!!
+----------------------------
+![image](https://github.com/user-attachments/assets/67c35abe-5ba8-4f6d-a3e4-04cc165f1c33)
+![image](https://github.com/user-attachments/assets/d7b97122-0730-484b-988b-83751268d394)
+![image](https://github.com/user-attachments/assets/3e3f9fe2-3e34-4fa4-a7be-de49128a73e0)
+![image](https://github.com/user-attachments/assets/5558e853-4137-434d-ae77-a4b1a46fea37)
+![image](https://github.com/user-attachments/assets/acbee8e8-5546-4dfd-b321-9c89b43eb5f1)
+![image](https://github.com/user-attachments/assets/f1ffa3bf-ddd0-4569-b5f6-4995161eb61a)
+
+
+
+
